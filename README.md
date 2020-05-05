@@ -1,4 +1,4 @@
-# Damn Vulnerable Web Application Docker container
+# dvwa Docker container
 [![Docker Pulls](https://img.shields.io/docker/pulls/vulnerables/web-dvwa.svg?style=plastic)](https://hub.docker.com/r/vulnerables/web-dvwa/)
 ![License](https://img.shields.io/badge/License-GPL-blue.svg?style=plastic)
 
@@ -12,7 +12,7 @@ The aim of DVWA is to practice some of the most common web vulnerability, with v
 
 To run this image you need [docker](http://docker.com) installed. Just run the command:
 
-    docker run --rm -it -p 80:80 vulnerables/web-dvwa
+    docker run --rm -it -p 80:80 cwm8/web-dvwa
 
 And wait until it download the image and start it, after that you can see the image running in your local machine:
 
